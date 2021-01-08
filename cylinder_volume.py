@@ -39,7 +39,7 @@ def main():
     volume = calculate_volume(radius_from_user, height_from_user)
 
     print("The volume of a cylinder with radius {0}mm and height {1}mm is"
-          " {2:,.2f}mm²".format(radius_from_user, height_from_user, volume))
+          " {2:,.2f}mm³".format(radius_from_user, height_from_user, volume))
 
 
 if __name__ == "__main__":
